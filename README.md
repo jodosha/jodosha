@@ -11,15 +11,9 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+-->  
 
-
-<div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>  
-  
-
-### <div align="center">I'm Luca Guidi, a Backend Software Architect 🧑🏻‍💻working remotely since 2012 🌍</div>  
+### <div align="center">👋 Ciao I'm Luca Guidi, <br> a Backend Software Architect 🧑🏻‍💻working remotely since 2012 🌍</div>  
   
 
 - 🔭 I’m currently working on [Hanami 2.0](https://hanamirb.org).  
