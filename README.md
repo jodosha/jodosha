@@ -118,7 +118,12 @@ Here are some ideas to get you started:
 
 
 ## Recent Blog Posts  
-<!-- BLOG-POST-LIST:START -->  
+<!-- BLOG-POST-LIST:START -->
+- [Introducing hanami-cli](https://lucaguidi.com/2017/10/10/introducing-hanami-cli/)
+- [How To Test Ruby CLI: Console](https://lucaguidi.com/2017/02/08/how-to-test-ruby-cli-console/)
+- [How To Test Ruby CLI: Code Generators](https://lucaguidi.com/2017/02/01/how-to-test-ruby-cli-code-generators/)
+- [How To Test Ruby CLI: The Setup](https://lucaguidi.com/2017/01/20/how-to-test-ruby-cli-the-setup/)
+- [Lessons Learned In Open Source: The Motivations](https://lucaguidi.com/2017/01/17/lessons-learned-in-open-source-the-motivations/)
 <!-- BLOG-POST-LIST:END -->  
 
 <br/>  
