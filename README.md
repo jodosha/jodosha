@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->  
 
-### <div align="center">👋 Ciao I'm Luca Guidi, <br> a Backend Software Architect 🧑🏻‍💻working remotely since 2012 🌍</div>  
+### <div align="center">👋 Ciao I'm Luca Guidi, <br> a Backend Software Architect 🧑🏻‍💻</div>  
   
 
 - 🔭 I’m currently working on [Hanami 2.0](https://hanamirb.org).  
