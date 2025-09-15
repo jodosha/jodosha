@@ -1,134 +1,40 @@
-<!--
-**jodosha/jodosha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Hi, I'm Luca Guidi!
 
-Here are some ideas to get you started:
+**Software Architect** based in Rome, Italy.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->  
+[![Current Focus](https://img.shields.io/badge/Now-lucaguidi.com%2Fnow-ff4d6d?style=for-the-badge)](https://lucaguidi.com/now)
+[![Sponsor Me](https://img.shields.io/badge/Sponsor-%E2%9D%A4-00e5ff?style=for-the-badge&logo=github)](https://github.com/sponsors/jodosha)  
 
-### <div align="center">👋 Ciao I'm Luca Guidi, <br> a Backend Software Architect 🧑🏻‍💻</div>  
-  
+---
 
-- 🔭 I’m currently working on [Hanami 2.0](https://hanamirb.org).  
-  
+[![Linkedin](https://img.shields.io/badge/-lucaguidi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucaguidi/)](https://www.linkedin.com/in/lucaguidi/)  
+[![GitHub](https://img.shields.io/github/followers/jodosha?label=follow&style=social)](https://github.com/jodosha)  
+[![BlueSky](https://img.shields.io/badge/BlueSky-@jodosha-00e5ff?style=flat-square&logo=bluesky)](https://bsky.app/profile/jodosha.bsky.social)  
+[![Instagram](https://img.shields.io/badge/Instagram-@jodosha-ff4d6d?style=flat-square&logo=instagram)](https://instagram.com/jodosha)  
+[![X (Twitter)](https://img.shields.io/badge/X-@jodosha-000000?style=flat-square&logo=x)](https://x.com/jodosha)  
+[![Blog](https://img.shields.io/badge/Blog-lucaguidi.com-2a2139?style=flat-square&logo=rss)](https://lucaguidi.com)  
 
-- 🌸 I'm the author of @hanamirb, and @redis-store. @dry_rb Core Team.  
-  
+---
 
-- 🌱 I’m currently learning Typescript.  
-  
+### A little more about me  
 
-- ❓ Ask me about anything related to Software Architecture, Ruby, Go.  
-  
+```javascript
+const jodosha = {
+  name: "Luca Guidi",
+  pronouns: "he" | "him",
+  location: "🇮🇹 Rome, Italy",
+  role: "Backend Software Architect",
+  code: ["Go", "Ruby", "TypeScript", "Nix", "Rust"],
+  tools: ["Docker/BuildKit", "Incus", "LLM Agents"],
+  architecture: ["distributed systems", "dev-experience platforms", "web frameworks"],
+  openSource: {
+    formerly: {
+      author: ["Hanami", "Redis::Store"],
+      coreTeam: "Dry-rb",
+    },
+  },
+  challenge: "Balancing architecture leadership with making art daily"
+}
+```
 
-- ⚡ Listen to my [music](https://instagram.com/jodosha).  
-  
-
-<br/>  
-
-
-## My Skill Set  
-<table><tr><td valign="top" width="33%">
-
-
-
-### Frontend  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" />  
-</div>
-
-</td><td valign="top" width="33%">
-
-
-
-### Backend  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/ruby-original-wordmark.svg" alt="Ruby" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/apache_kafka-icon.svg" alt="Kafka" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/graphql.png" alt="GraphQL" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/go-original.svg" alt="Go" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/redis-original-wordmark.svg" alt="Redis" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" />  
-</div>
-
-</td><td valign="top" width="33%">
-
-
-
-### DevOps  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/kubernetes-icon.svg" alt="Kubernetes" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/terraformio-icon.svg" alt="Terraform" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nginx-original.svg" alt="Nginx" height="50" />  
-</div>
-
-</td></tr></table>  
-
-<br/>  
-
-
-## Connect with me  
-<div align="center">
-<a href="https://github.com/jodosha" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://linkedin.com/in/lucaguidi" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://instagram.com/jodosha" target="_blank">
-<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
-</a>
-<a href="https://twitter.com/jodosha" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
-</a>  
-</div>  
-  
-
-<br/>  
-
-
-## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=jodosha&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
-
-<br/>  
-
-
-## Recent Blog Posts  
-<!-- BLOG-POST-LIST:START -->
-- [Introducing hanami-cli](https://lucaguidi.com/2017/10/10/introducing-hanami-cli/)
-- [How To Test Ruby CLI: Console](https://lucaguidi.com/2017/02/08/how-to-test-ruby-cli-console/)
-- [How To Test Ruby CLI: Code Generators](https://lucaguidi.com/2017/02/01/how-to-test-ruby-cli-code-generators/)
-- [How To Test Ruby CLI: The Setup](https://lucaguidi.com/2017/01/20/how-to-test-ruby-cli-the-setup/)
-- [Lessons Learned In Open Source: The Motivations](https://lucaguidi.com/2017/01/17/lessons-learned-in-open-source-the-motivations/)
-<!-- BLOG-POST-LIST:END -->  
-
-<br/>  
-
-  
-
-<br/>  
-
-  
-
-<br/>  
-
-
-<br />
+👨‍💻 I love connecting with people at the crossroads of tech and art — feel free to reach out and say hi!
