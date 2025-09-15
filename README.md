@@ -33,10 +33,6 @@ const jodosha = {
       coreTeam: "Dry-rb",
     },
   },
-  artProjects: {
-    brand: ["Quiet Pulse (ambient music)", "Monkeyfied (toys/characters)"],
-    mediums: ["Procreate", "Blender", "Acrylics", "Serigraphy"]
-  },
   challenge: "Balancing architecture leadership with making art daily"
 }
 ```
