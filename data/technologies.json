@@ -1,6 +1,0 @@
-{
-  "languages": ["go", "ruby", "typescript", "javascript", "nix", "rust"],
-  "frameworks": ["hanami", "rails", "nodejs"],
-  "databases": ["postgresql", "redis", "sqlite"],
-  "infrastructure": ["docker", "incus", "nixos"]
-}
