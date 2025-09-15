@@ -1,21 +1,11 @@
 ```bash
 jodosha@github.com:~$ whoami
-Luca Guidi
+ _                         ____       _     _ _ 
+| |   _   _  ___ __ _     / ___|_   _(_) __| (_)
+| |  | | | |/ __/ _` |   | |  _| | | | |/ _` | |
+| |__| |_| | (_| (_| |   | |_| | |_| | | (_| | |
+|_____\__,_|\___\__,_|    \____|\__,_|_|\__,_|_|
 ```
-
-```bash
-jodosha@github.com:~$ figlet "Luca Guidi"
-```
-
-![](https://img.shields.io/badge/%20_%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20____%20%20%20%20%20%20%20_%20%20%20%20%20_%20_%20-ff00ff?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IndoaXRlIi8+PC9zdmc+)
-
-![](https://img.shields.io/badge/%7C%20%7C%20%20%20_%20%20%20_%20%20_%5F%5F%5F%20__%20_%20%20%20%20%20/%20__%5F%7C_%20%20%20_%28_%29%20__%7C%20%28_%29-ff00ff?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IndoaXRlIi8+PC9zdmc+)
-
-![](https://img.shields.io/badge/%7C%20%7C%20%20%7C%20%7C%20%7C%20%7C/%20__%5F%20%60%20%7C%20%20%20%7C%20%7C%20%20_%7C%20%7C%20%7C%20%7C%20%7C/%20_%60%20%7C%20%7C-00ffff?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IndoaXRlIi8+PC9zdmc+)
-
-![](https://img.shields.io/badge/%7C%20%7C__%7C%20%7C_%7C%20%7C%20(%20%7C%20(%20%7C%20%20%20%7C%20%7C_%7C%20%7C%20%7C_%7C%20%7C%20%7C%20(%20%7C%20%7C-00ffff?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IndoaXRlIi8+PC9zdmc+)
-
-![](https://img.shields.io/badge/%7C_____%5C__%5F%2C_%5C___%5C__%5F%2C_%7C%20%20%20%20%5C____%7C%5C__%5F%2C_%7C_%5C__%5F%2C_%7C_%7C-ff0080?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IndoaXRlIi8+PC9zdmc+)
 
 <sub>**Backend Software Architect** • **Ruby Specialist**</sub>
 
