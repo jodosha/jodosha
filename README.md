@@ -42,6 +42,7 @@ const jodosha = {
 ```bash
 jodosha@github.com:~$ ps aux | grep "current_focus"
 ```
+
 ```
 USER      PID  %CPU %MEM    STARTED  COMMAND
 jodosha  1337  100.0  80.0  2025-09  Working on Ki language
@@ -54,6 +55,8 @@ jodosha  2759  70.0  50.0  2025-09  Experimenting with Nix
 
 ```bash
 jodosha@github.com:~$ tail -f /var/log/github/activity.log
+```
+
 ```
 [2025-01-15 09:32:15] COMMIT: jodosha/ki - Implement lexer for new syntax
   └─ https://github.com/jodosha/ki/commit/abc123def456
@@ -72,6 +75,8 @@ jodosha@github.com:~$ tail -f /var/log/github/activity.log
 
 ```bash
 jodosha@github.com:~$ find /social -name "*.post" | head -5
+```
+
 ```
 /social/blog/2025-09-15-latest-blog-post.md
   └─ https://lucaguidi.com
@@ -122,6 +127,7 @@ jodosha@github.com:~$ tree /usr/local/technologies/
 ```bash
 jodosha@github.com:~$ cat /etc/hosts
 ```
+
 ```
 # Professional Network Configuration
 127.0.0.1       localhost
