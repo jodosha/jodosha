@@ -1,0 +1,37 @@
+name: "🎯 Update Current Focus"
+
+on:
+  schedule:
+    - cron: '0 9 * * *'    # Daily at 9 AM
+  workflow_dispatch:
+    inputs:
+      focus:
+        description: 'Manual focus update'
+        required: false
+        type: string
+
+jobs:
+  update-focus:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Update README with Focus
+        run: |
+          echo "Reading focus from data/focus.json..."
+          
+          # Update focus section directly from JSON file
+          node scripts/update-focus-section.js
+          
+      - name: Commit Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "🎯 Update current focus"
+          git push

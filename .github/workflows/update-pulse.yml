@@ -1,0 +1,122 @@
+name: "🔄 Update Activity Pulse"
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:
+
+jobs:
+  update-pulse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Fetch Recent GitHub Activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching recent GitHub activity..."
+          
+          # Define excluded organizations (space-separated)
+          EXCLUDED_ORGS="company-corp private-client confidential-org"
+          
+          # Get recent events from GitHub API
+          curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/users/jodosha/events/public?per_page=10" \
+            > raw_activity.json
+          
+          # Filter and sanitize events using Node.js
+          node -e "
+          const fs = require('fs');
+          const events = JSON.parse(fs.readFileSync('raw_activity.json', 'utf8'));
+          const excludedOrgs = process.env.EXCLUDED_ORGS.split(' ');
+          
+          const sanitizedEvents = events.map(event => {
+            const orgName = event.repo.name.split('/')[0];
+            const isExcluded = excludedOrgs.includes(orgName);
+            
+            if (isExcluded) {
+              // Sanitize excluded org events
+              const sanitized = {
+                ...event,
+                repo: {
+                  ...event.repo,
+                  name: orgName + ' (private repository)'
+                }
+              };
+              
+              // Remove sensitive payload data
+              if (event.payload.commits) {
+                sanitized.payload = {
+                  ...event.payload,
+                  commits: [{
+                    sha: 'private',
+                    message: 'Private development activity'
+                  }]
+                };
+              }
+              
+              if (event.payload.pull_request) {
+                sanitized.payload = {
+                  ...event.payload,
+                  pull_request: {
+                    ...event.payload.pull_request,
+                    title: 'Private development activity',
+                    html_url: '#'
+                  }
+                };
+              }
+              
+              if (event.payload.issue) {
+                sanitized.payload = {
+                  ...event.payload,
+                  issue: {
+                    ...event.payload.issue,
+                    title: 'Private development activity',
+                    html_url: '#'
+                  }
+                };
+              }
+              
+              if (event.payload.release) {
+                sanitized.payload = {
+                  ...event.payload,
+                  release: {
+                    ...event.payload.release,
+                    name: 'Private release',
+                    tag_name: 'private',
+                    html_url: '#'
+                  }
+                };
+              }
+              
+              return sanitized;
+            }
+            
+            return event;
+          });
+          
+          fs.writeFileSync('data/activity.json', JSON.stringify(sanitizedEvents.slice(0, 5), null, 2));
+          " \
+          EXCLUDED_ORGS="$EXCLUDED_ORGS"
+          
+          # Clean up
+          rm raw_activity.json
+            
+      - name: Update README with Activity
+        run: |
+          # Format activity and update README section
+          node scripts/update-activity-section.js
+          
+      - name: Commit Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "🔄 Update activity pulse"
+          git push
