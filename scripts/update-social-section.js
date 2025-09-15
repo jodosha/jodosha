@@ -97,17 +97,42 @@ try {
   const formattedItems = recentItems.map(formatSocialItem);
   const socialContent = formattedItems.join('\n');
   
-  // Find and replace the social feeds section
-  const socialRegex = /(```\n\/social\/[\s\S]*?)(\n<!-- Auto-updated via GitHub Actions -->\n```)/;
+  // Find and replace the social feeds section - match between the empty code block and comment
+  const socialRegex = /(```\n)(?=<!-- Auto-updated via GitHub Actions -->)[\s\S]*?(<!-- Auto-updated via GitHub Actions -->)/;
   
-  const updatedReadme = readme.replace(socialRegex, (match, prefix, suffix) => {
-    return '```\n' + socialContent + suffix;
-  });
+  // Find the SOCIAL FEEDS section specifically  
+  const socialSectionStart = readme.indexOf('## ![](https://img.shields.io/badge/📡%20SOCIAL%20FEEDS');
+  const socialSectionEnd = readme.indexOf('## ![](https://img.shields.io/badge/🔧%20TECHNOLOGIES', socialSectionStart);
+  
+  if (socialSectionStart === -1 || socialSectionEnd === -1) {
+    console.warn('⚠ Could not find SOCIAL FEEDS section boundaries');
+    return;
+  }
+  
+  const beforeSection = readme.substring(0, socialSectionStart);
+  const afterSection = readme.substring(socialSectionEnd);
+  
+  // Find the content area in the social section
+  const sectionContent = readme.substring(socialSectionStart, socialSectionEnd);
+  const contentStart = sectionContent.indexOf('```\n', sectionContent.indexOf('```bash')) + 4;
+  const contentEnd = sectionContent.indexOf('\n<!-- Auto-updated via GitHub Actions -->');
+  
+  if (contentStart === -1 || contentEnd === -1) {
+    console.warn('⚠ Could not find content boundaries in SOCIAL FEEDS section');
+    return;
+  }
+  
+  // Rebuild the section
+  const newSectionContent = sectionContent.substring(0, contentStart) + 
+                           socialContent + 
+                           sectionContent.substring(contentEnd);
+  
+  const updatedReadme = beforeSection + newSectionContent + afterSection;
   
   // Check if the replacement actually happened
   if (updatedReadme === readme) {
     console.warn('⚠ Social feeds section not found in README.md - no changes made');
-    console.log('Expected pattern: ```\\n/social/...<!-- Auto-updated via GitHub Actions -->\\n```');
+    console.log('Expected: shields badge SOCIAL FEEDS section with find command');
   } else {
     fs.writeFileSync('README.md', updatedReadme);
     console.log('✅ Social feeds section updated successfully');

@@ -37,7 +37,7 @@ const jodosha = {
 }
 ```
 
-## <sub><span style="color:#ff00ff">CURRENT FOCUS</span></sub>
+## ![](https://img.shields.io/badge/🎯%20CURRENT%20FOCUS-ff00ff?style=for-the-badge)
 
 ```bash
 jodosha@github.com:~$ ps aux | grep "current_focus"
@@ -50,25 +50,43 @@ jodosha  2759  70.0  50.0  2025-09  Experimenting with Nix
 <!-- Auto-updated via GitHub Actions -->
 ```
 
-## <sub><span style="color:#00ffff">SYSTEM PULSE</span></sub>
+## ![](https://img.shields.io/badge/📊%20SYSTEM%20PULSE-00ffff?style=for-the-badge)
 
 ```bash
 jodosha@github.com:~$ tail -f /var/log/github/activity.log
 ```
-```
+[2025-01-15 09:32:15] COMMIT: jodosha/ki - Implement lexer for new syntax
+  └─ https://github.com/jodosha/ki/commit/abc123def456
+[2025-01-14 18:45:23] PR-OPENED: jodosha/dxup - Add CLI configuration system
+  └─ https://github.com/jodosha/dxup/pull/15
+[2025-01-14 14:20:11] ISSUE-OPENED: NixOS/nixpkgs - Add flake support for Ruby development environment
+  └─ https://github.com/NixOS/nixpkgs/issues/12345
+[2025-01-13 22:10:05] RELEASE: hanami/hanami - v2.0.0.beta4
+  └─ https://github.com/hanami/hanami/releases/tag/v2.0.0.beta4
+[2025-01-13 16:55:32] TAG: jodosha/experimental-parser - Created v0.1.0
+  └─ https://github.com/jodosha/experimental-parser/tags
 <!-- Auto-updated via GitHub Actions -->
 ```
 
-## <sub><span style="color:#ff0080">SOCIAL FEEDS</span></sub>
+## ![](https://img.shields.io/badge/📡%20SOCIAL%20FEEDS-ff0080?style=for-the-badge)
 
 ```bash
 jodosha@github.com:~$ find /social -name "*.post" | head -5
 ```
-```
+/social/blog/2025-09-15-latest-blog-post.md
+  └─ https://lucaguidi.com
+/social/bluesky/2025-09-14-recent-bluesky-activity.post
+  └─ https://bsky.app/profile/jodosha.bsky.social
+/social/youtube/2025-09-13-latest-video-content.mp4
+  └─ https://youtube.com/@lucaguidi1982
+/social/linkedin/2025-09-12-professional-updates.post
+  └─ https://linkedin.com/in/lucaguidi
+/social/x/2025-09-11-tech-thoughts-and-insights.post
+  └─ https://x.com/jodosha
 <!-- Auto-updated via GitHub Actions -->
 ```
 
-## <sub><span style="color:#00ff80">TECHNOLOGIES</span></sub>
+## ![](https://img.shields.io/badge/🔧%20TECHNOLOGIES-00ff80?style=for-the-badge)
 
 ```bash
 jodosha@github.com:~$ tree /usr/local/technologies/
@@ -99,7 +117,7 @@ jodosha@github.com:~$ tree /usr/local/technologies/
 4 directories, 15 files
 ```
 
-## <sub><span style="color:#8000ff">NETWORK INTERFACE</span></sub>
+## ![](https://img.shields.io/badge/📧%20NETWORK%20INTERFACE-8000ff?style=for-the-badge)
 
 ```bash
 jodosha@github.com:~$ cat /etc/hosts

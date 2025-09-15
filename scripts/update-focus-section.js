@@ -21,7 +21,7 @@ try {
   const newFocus = focusItems.join('\n');
   
   // Find and replace the current focus section
-  const focusRegex = /(```\nUSER\s+PID\s+%CPU\s+%MEM\s+STARTED\s+COMMAND\n)([\s\S]*?)(\n<!-- Auto-updated via GitHub Actions -->\n```)/;
+  const focusRegex = /(USER\s+PID\s+%CPU\s+%MEM\s+STARTED\s+COMMAND\n)([\s\S]*?)(\n<!-- Auto-updated via GitHub Actions -->\n```)/;
   
   const updatedReadme = readme.replace(focusRegex, (match, header, oldContent, footer) => {
     return header + newFocus + footer;

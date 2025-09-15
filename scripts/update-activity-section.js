@@ -56,12 +56,34 @@ const updateReadmeSection = (formattedActivity) => {
   try {
     const readme = fs.readFileSync('README.md', 'utf8');
     
-    // Find and replace the system pulse section
-    const pulseRegex = /(```\n\[[\s\S]*?)(\n<!-- Auto-updated via GitHub Actions -->\n```)/;
+    // Find the SYSTEM PULSE section specifically  
+    const pulseSectionStart = readme.indexOf('## ![](https://img.shields.io/badge/📊%20SYSTEM%20PULSE');
+    const pulseSectionEnd = readme.indexOf('## ![](https://img.shields.io/badge/📡%20SOCIAL%20FEEDS', pulseSectionStart);
     
-    const updatedReadme = readme.replace(pulseRegex, (match, prefix, suffix) => {
-      return '```\n' + formattedActivity + suffix;
-    });
+    if (pulseSectionStart === -1 || pulseSectionEnd === -1) {
+      console.warn('⚠ Could not find SYSTEM PULSE section boundaries');
+      return false;
+    }
+    
+    const beforeSection = readme.substring(0, pulseSectionStart);
+    const afterSection = readme.substring(pulseSectionEnd);
+    
+    // Find the content area in the pulse section
+    const sectionContent = readme.substring(pulseSectionStart, pulseSectionEnd);
+    const contentStart = sectionContent.indexOf('```\n', sectionContent.indexOf('```bash')) + 4;
+    const contentEnd = sectionContent.indexOf('\n<!-- Auto-updated via GitHub Actions -->');
+    
+    if (contentStart === -1 || contentEnd === -1) {
+      console.warn('⚠ Could not find content boundaries in SYSTEM PULSE section');
+      return false;
+    }
+    
+    // Rebuild the section
+    const newSectionContent = sectionContent.substring(0, contentStart) + 
+                             formattedActivity + 
+                             sectionContent.substring(contentEnd);
+    
+    const updatedReadme = beforeSection + newSectionContent + afterSection;
     
     fs.writeFileSync('README.md', updatedReadme);
     console.log('System pulse section updated successfully');
