@@ -1,18 +1,16 @@
-```bash
-jodosha@github.com:~$ whoami
+![Terminal Session](https://img.shields.io/badge/╭─%20Terminal%20Session%20─%20jodosha@github.com%20────────────────────────────────────────%20╮-0d1117?style=for-the-badge)
+
+![Command Line](https://img.shields.io/badge/jodosha@github.com:~$%20whoami-00ff80?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InRyYW5zcGFyZW50Ii8+PC9zdmc+)
+```
  _                         ____       _     _ _ 
 | |   _   _  ___ __ _     / ___|_   _(_) __| (_)
 | |  | | | |/ __/ _` |   | |  _| | | | |/ _` | |
 | |__| |_| | (_| (_| |   | |_| | |_| | | (_| | |
 |_____\__,_|\___\__,_|    \____|\__,_|_|\__,_|_|
 ```
+**Backend Software Architect** • **Ruby Specialist**
 
-<sub>**Backend Software Architect** • **Ruby Specialist**</sub>
-
-```bash
-jodosha@github.com:~$ cat /etc/profile/architect.ts
-```
-
+![Command Line](https://img.shields.io/badge/jodosha@github.com:~$%20cat%20/etc/profile/architect.ts-ff00ff?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InRyYW5zcGFyZW50Ii8+PC9zdmc+)
 ```typescript
 const jodosha = {
   pronouns: "he" | "him",
@@ -28,12 +26,7 @@ const jodosha = {
 }
 ```
 
-## ![](https://img.shields.io/badge/🎯%20CURRENT%20FOCUS-ff00ff?style=for-the-badge)
-
-```bash
-jodosha@github.com:~$ ps aux | grep "current_focus"
-```
-
+![Command Line](https://img.shields.io/badge/jodosha@github.com:~$%20ps%20aux%20%7C%20grep%20"current_focus"-00ffff?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InRyYW5zcGFyZW50Ii8+PC9zdmc+)
 ```
 USER      PID  %CPU %MEM    STARTED  COMMAND
 jodosha  1337  100.0  80.0  2025-09  Working on Ki language
@@ -42,12 +35,7 @@ jodosha  2759  70.0  50.0  2025-09  Experimenting with Nix
 <!-- Auto-updated via GitHub Actions -->
 ```
 
-## ![](https://img.shields.io/badge/📊%20SYSTEM%20PULSE-00ffff?style=for-the-badge)
-
-```bash
-jodosha@github.com:~$ tail -f /var/log/github/activity.log
-```
-
+![Command Line](https://img.shields.io/badge/jodosha@github.com:~$%20tail%20-f%20/var/log/github/activity.log-ff0080?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InRyYW5zcGFyZW50Ii8+PC9zdmc+)
 ```
 [2025-01-15 09:32:15] COMMIT: jodosha/ki - Implement lexer for new syntax
   └─ https://github.com/jodosha/ki/commit/abc123def456
@@ -62,12 +50,7 @@ jodosha@github.com:~$ tail -f /var/log/github/activity.log
 <!-- Auto-updated via GitHub Actions -->
 ```
 
-## ![](https://img.shields.io/badge/📡%20SOCIAL%20FEEDS-ff0080?style=for-the-badge)
-
-```bash
-jodosha@github.com:~$ find /social -name "*.post" | head -5
-```
-
+![Command Line](https://img.shields.io/badge/jodosha@github.com:~$%20find%20/social%20-name%20"*.post"%20%7C%20head%20-5-8000ff?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InRyYW5zcGFyZW50Ii8+PC9zdmc+)
 ```
 /social/blog/2025-09-15-latest-blog-post.md
   └─ https://lucaguidi.com
@@ -82,12 +65,7 @@ jodosha@github.com:~$ find /social -name "*.post" | head -5
 <!-- Auto-updated via GitHub Actions -->
 ```
 
-## ![](https://img.shields.io/badge/🔧%20TECHNOLOGIES-00ff80?style=for-the-badge)
-
-```bash
-jodosha@github.com:~$ tree /usr/local/technologies/
-```
-
+![Command Line](https://img.shields.io/badge/jodosha@github.com:~$%20tree%20/usr/local/technologies/-ff6600?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InRyYW5zcGFyZW50Ii8+PC9zdmc+)
 ```
 /usr/local/technologies/
 ├── languages/
@@ -113,12 +91,7 @@ jodosha@github.com:~$ tree /usr/local/technologies/
 4 directories, 15 files
 ```
 
-## ![](https://img.shields.io/badge/📧%20NETWORK%20INTERFACE-8000ff?style=for-the-badge)
-
-```bash
-jodosha@github.com:~$ cat /etc/hosts
-```
-
+![Command Line](https://img.shields.io/badge/jodosha@github.com:~$%20cat%20/etc/hosts-00ff80?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMSAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InRyYW5zcGFyZW50Ii8+PC9zdmc+)
 ```
 # Professional Network Configuration
 127.0.0.1       localhost
@@ -129,3 +102,5 @@ jodosha@github.com:~$ cat /etc/hosts
 192.168.1.104   x.com/jodosha              # https://x.com/jodosha
 192.168.1.105   instagram.com/jodosha      # https://instagram.com/jodosha
 ```
+
+![Terminal Session](https://img.shields.io/badge/╰──────────────────────────────────────────────────────────────────────────╯-0d1117?style=for-the-badge)
