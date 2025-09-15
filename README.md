@@ -1,4 +1,4 @@
-<code>
+```bash
 jodosha@github.com:~$ whoami
  _                         ____       _     _ _ 
 | |   _   _  ___ __ _     / ___|_   _(_) __| (_)
@@ -6,7 +6,9 @@ jodosha@github.com:~$ whoami
 | |__| |_| | (_| (_| |   | |_| | |_| | | (_| | |
 |_____\__,_|\___\__,_|    \____|\__,_|_|\__,_|_|
 
-Backend Software Architect • Ruby Specialist
+        Backend Software Architect
+
+
 
 jodosha@github.com:~$ cat /etc/profile/architect.ts
 const jodosha = {
@@ -22,12 +24,16 @@ const jodosha = {
   passions: ["software architecture", "open source", "visual arts"],
 }
 
+
+
 jodosha@github.com:~$ ps aux | grep "current_focus"
 USER      PID  %CPU %MEM    STARTED  COMMAND
 jodosha  1337  100.0  80.0  2025-09  Working on Ki language
 jodosha  2048  85.0  65.0  2025-09  Shaping dxup OSS product
 jodosha  2759  70.0  50.0  2025-09  Experimenting with Nix
 <!-- Auto-updated via GitHub Actions -->
+
+
 
 jodosha@github.com:~$ tail -f /var/log/github/activity.log
 [2025-01-15 09:32:15] COMMIT: jodosha/ki - Implement lexer for new syntax
@@ -42,6 +48,8 @@ jodosha@github.com:~$ tail -f /var/log/github/activity.log
   └─ https://github.com/jodosha/experimental-parser/tags
 <!-- Auto-updated via GitHub Actions -->
 
+
+
 jodosha@github.com:~$ find /social -name "*.post" | head -5
 /social/blog/2025-09-15-latest-blog-post.md
   └─ https://lucaguidi.com
@@ -54,6 +62,8 @@ jodosha@github.com:~$ find /social -name "*.post" | head -5
 /social/x/2025-09-11-tech-thoughts-and-insights.post
   └─ https://x.com/jodosha
 <!-- Auto-updated via GitHub Actions -->
+
+
 
 jodosha@github.com:~$ tree /usr/local/technologies/
 /usr/local/technologies/
@@ -79,6 +89,8 @@ jodosha@github.com:~$ tree /usr/local/technologies/
 
 4 directories, 15 files
 
+
+
 jodosha@github.com:~$ cat /etc/hosts
 # Professional Network Configuration
 127.0.0.1       localhost
@@ -88,4 +100,4 @@ jodosha@github.com:~$ cat /etc/hosts
 192.168.1.103   bsky.app/jodosha           # https://bsky.app/profile/jodosha.bsky.social
 192.168.1.104   x.com/jodosha              # https://x.com/jodosha
 192.168.1.105   instagram.com/jodosha      # https://instagram.com/jodosha
-</code>
+```
